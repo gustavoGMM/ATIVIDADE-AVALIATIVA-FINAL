@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(18, 102, 18);
+  background-color: rgb(42, 44, 42);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -30,7 +30,7 @@ div > input {
 }
 
 h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(216, 213, 213);
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
@@ -58,7 +58,7 @@ section {
 .link-as-button {
   display: inline-block;
   padding: 5px 10px;
-  background-color: rgb(56, 209, 18);
+  background-color: rgb(72, 87, 69);
   border: none;
   text-decoration: none;
   color: black;
