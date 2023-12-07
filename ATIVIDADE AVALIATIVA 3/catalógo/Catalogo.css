@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    z-index: 999;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+#catalogoSection {
+    background-color: var(--background-color);
+}
+
+#catalogoProdutos {
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 20rem;
+    border-radius: 0%;
+}
+
+.card-img-top {
+    border-radius: 0%;
+}
+
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+
+.modal-title {
+    color: var(--azualEscuro);
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
+
+
+.col-1 {
+    width: 150px;
+}
+
+.fa-whatsapp {
+    font-size: 150px;
+    color: green;
+}
+
+
+.page-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3px;
+}
+
+
+.page-footer a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+:root {
+    --background-color: #f8f9fa; 
+    --azualEscuro: #00008b; 
+    --primary-color: #007bff;
+}
+
+

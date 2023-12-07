@@ -1,0 +1,180 @@
+@font-face  {
+  font-family: 'square';
+  src: url(../font//squarefont/Square.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(7, 6, 6);
+    
+}
+
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2.00rem;
+    color:yellow;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #01a725;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color:yellow;
+    font-weight: 500;
+    font-size: 1.19rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+h2{
+    text-align: center;
+    font-family: platinum;
+    background-color: black;
+    color: rgb(250, 239, 239);
+    height: 40px;
+    font-size: 45px;
+}
+
+
+section {
+  width: 100%;
+  height: 200px;
+  padding: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+section, h4, p{
+       text-align: center;
+       color: rgb(0, 255, 0);
+       background-color: none;
+       font-size: 45px;
+
+
+ }
+
+
+
+#bg-image1{
+  background-image: url(/imagens/ds.png);
+  
+ 
+}
+
+#bg-image2{
+  background-image: url(/imagens/aw.png);
+  
+}
+
+#bg-image3{
+  background-image: url(/imagens/2060-super-mancer-ss-001-pichau.png);
+  
+}
+
+#bg-image4{
+  background-image: url(/imagens/2-PhotoRoom.png-PhotoRoom\ \(1\).png);
+  
+}
+
+footer, h3, p{
+  background-color: rgb(163, 17, 17);
+  justify-content: space-around;
+  align-items: center;
+}
+

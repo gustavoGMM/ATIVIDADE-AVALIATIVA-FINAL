@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ATIVIDADE AVALIATIVA 2 Login-main/cadastro/cadastro.css">
+    <title>Cadastro</title>
+    <h1>Faça Seu Cadastro</h1>
+</head>
+<body>
+  
+  <style>
+    body{
+        height: 100vh;
+        width: 100%;
+        background-image: url(/);
+        background-position: center center;
+        background-attachment: fixed;
+    }
+</style>
+
+    <form autocomplete="on">
+        <fieldset>
+            <legend><h2>Dados Pessoais</h2></legend>
+          <div>
+              <label for="nome">Nome:</label>
+              <input 
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  placeholder="Digite seu nome completo"
+                  autocomplete="cc-name" >
+          </div>
+        
+          <div>
+            <label for="telefone">Telefone:</label>
+          <input 
+             type="tel"
+             name="telefone"
+             id="telefone"
+             placeholder="(xx)xxxx-xxxx"
+             autocomplete="tel">
+          </div>
+
+
+         <div>
+            <label for="email">Email:</label>
+          <input 
+             type="email"
+             name="email"
+             id="email"
+             placeholder="Exemplo@exemplo.com"
+             autocomplete="Email">
+           </div>
+
+         <div>
+            <label for="senha">Senha:</label>
+          <input 
+             type="senha"
+             name="senha"
+             id="senha"
+             placeholder="Digite uma senha"> 
+           </div>
+           
+           <section>
+            <a class="link-as-button" href="/login/login.html"
+            target="_blank">
+            Realizar Cadastro
+          </a>
+           </section>
+
+        </fieldset>
+    </form>
+</body>
+</html>
