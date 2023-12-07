@@ -41,7 +41,7 @@ const products = [
     toggleCart();
   }
   
-  // Exemplo de preenchimento de produtos na página (pode ser feito dinamicamente)
+  
   document.addEventListener("DOMContentLoaded", function () {
     const cartButton = document.getElementById("cartButton");
     const productsList = document.createElement("ul");
