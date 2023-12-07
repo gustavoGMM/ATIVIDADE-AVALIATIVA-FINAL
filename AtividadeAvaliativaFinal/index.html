@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/AtividadeAvaliativaFinal/style/style.css">
+  <title>Carrinho de Compras</title>
 </head>
 <body>
-    
+
+  <div class="container">
+    <button id="cartButton" onclick="toggleCart()">Carrinho</button>
+    <div id="cart" class="cart">
+      <ul id="cartItems"></ul>
+      <p>Total: R$ <span id="totalPrice">0.00</span></p>
+      <button onclick="checkout()">Finalizar Compra</button>
+    </div>
+  </div>
+
+  <script src="/AtividadeAvaliativaFinal/script.js"></script>
 </body>
 </html>
