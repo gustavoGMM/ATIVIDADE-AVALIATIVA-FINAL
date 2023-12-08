@@ -1,18 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-   
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/AtividadeAvaliativaFinal/style/style.css">
+  <title>pagamento</title>
+</head>
+<body>
+  
 
-    <link rel="stylesheet" href="/AtividadeAvaliativaFinal/node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="/AtividadeAvaliativaFinal/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
-    <title> Loja PcEx :: Página Principal</title>
-  </head>
-  <body>
-    <h1>Seja Bem-Vindo , a PcEX!</h1>
+<!-- Adicione esta estrutura onde deseja exibir os produtos -->
+<div class="product" data-name="Gtx 1080" data-price="7000">
+  <h3>Gtx 1080</h3>
+  <p>Descrição do produto...</p>
+  <button class="add-to-cart">Adicionar ao Carrinho</button>
+</div>
 
-    <script src="/AtividadeAvaliativaFinal/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+<div class="product" data-name="RTX 3060" data-price="1889">
+  <h3>RTX 3060</h3>
+  <p>Descrição do produto...</p>
+  <button class="add-to-cart">Adicionar ao Carrinho</button>
+</div>
+
+<!-- Adicione esta estrutura para exibir o carrinho -->
+<h1>Carrinho de Compras</h1>
+<ul id="cart"></ul>
+<p id="total">Total: R$ 0.00</p>
+
+<!-- Adicione este script no final do seu corpo HTML -->
+<script src="/AtividadeAvaliativaFinal/script.js"></script>
+
+</body>
 </html>
