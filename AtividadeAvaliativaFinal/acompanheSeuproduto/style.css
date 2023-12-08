@@ -26,7 +26,7 @@ body {
     }
 }
 
-h1, h2, p {
+h1, p {
     color: #333;
 }
 
@@ -38,16 +38,14 @@ h1, h2, p {
     font-weight: bold;
 }
 
-.additional-info {
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
+.image-gallery img {
+    width: 30%;
+    max-width: 30%; 
+    height: auto; 
+    border-radius: 8px;
 }
 
-.additional-info a {
-    color: #1e88e5;
-    text-decoration: none;
-}
-
-.additional-info a:hover {
-    text-decoration: underline;
+.image-gallery img {
+    width: 30%;
+    border-radius: 8px;
 }
