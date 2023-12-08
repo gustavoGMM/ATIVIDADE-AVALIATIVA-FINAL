@@ -1,66 +1,77 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(44, 45, 49);
-  font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 form {
-  width: 380px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 29px;
-  border-radius: 10px;
+    width: 380px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 29px;
+    border-radius: 10px;
+    background-color: rgb(43, 46, 49); /* Ajuste de cor de fundo */
 }
 
 form div {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 div > input {
-  height: 35px;
-  border: 2px solid #080707;
-  width: 100%;
-  font-size: 20px;
-  padding: 5px;
-  background-color: white;
+    height: 35px;
+    border: 2px solid #080707;
+    width: 100%;
+    font-size: 16px; /* Ajuste de tamanho de fonte */
+    padding: 8px; /* Ajuste de espaçamento interno */
+    background-color: white;
 }
 
 h1 {
-  color: rgb(216, 213, 213);
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 50px;
-  text-shadow: 3px 3px 3px rgb(8, 7, 6);
-  padding: 7px;
-  margin: 20px 0;
+    color: rgb(216, 213, 213);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgb(8, 7, 6);
+    padding: 7px;
+    margin: 20px 0;
 }
 
 h2 {
-  background-color: rgb(0, 0, 0);
-  color: #fff;
-  border-radius: 10px;
-  padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 fieldset {
-  border: none;
-  padding: 20px;
+    border: none;
+    padding: 20px;
 }
 
 section {
-  margin: 30px 0;
+    margin: 30px 0;
 }
 
 .link-as-button {
-  display: inline-block;
-  padding: 5px 10px;
-  background-color: rgb(72, 87, 69);
-  border: none;
-  text-decoration: none;
-  color: black;
-  border-radius: 15px;
+    display: inline-block;
+    padding: 10px 20px; /* Ajuste de espaçamento interno */
+    background-color: rgb(72, 87, 69);
+    border: none;
+    text-decoration: none;
+    color: white; /* Cor do texto ajustada para melhor contraste */
+    border-radius: 15px;
+    margin-top: 20px; /* Ajuste de margem superior */
 }

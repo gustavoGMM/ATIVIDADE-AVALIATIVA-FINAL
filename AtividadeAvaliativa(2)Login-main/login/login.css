@@ -1,13 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section{
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #186c9c, white);
+    margin: 0; /* Remove default margin */
+}
+
+section {
     width: 50%;
-    padding: 12px ;
+    padding: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,101 +27,68 @@ section{
     background-attachment: fixed;
     background-color: rgb(115, 122, 113);
     border-radius: 10px;
-    padding-left: 10px;
+    margin-top: 20px; /* Add margin for better spacing */
 }
 
-h3{
-    color: white;
-    
-}
-
-body{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to top, #186c9c, white); 
-}
-
-form{
+form {
     background-color: rgb(43, 46, 49);
     padding: 40px;
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 20px;
     box-shadow: 1px 1px 1px gray;
-    margin: 0px;
-   
 }
 
 form > div {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin-bottom: 50px;
+    gap: 20px; /* Reduce the gap for better spacing */
 }
 
-div > input{
+div > input {
     height: 40px;
     border: 2px solid #080707;
-    width: 300px;
-    font-size: 21px;
-    padding-left: 10px;
-   
-}
-
-div > input:focus {
-    outline: 2px solid #186c9c;
-
+    width: 100%; /* Make input width 100% */
+    font-size: 16px; /* Reduce font size for better fit */
+    padding: 8px; /* Adjust padding for better appearance */
 }
 
 form > input {
     background-color: #186c9c;
     width: 100%;
     border-radius: 2px;
-    color:white;
+    color: white;
     border: none;
-    height: 5px;
-    transition:  background-color .3s;
+    height: 40px; /* Increase height for better visibility */
+    transition: background-color 0.3s;
+}
 
- }
+form > input:hover {
+    background-color: #145682; /* Darker color on hover */
+    cursor: pointer;
+}
 
- form > input:hover{
-     background-color: #186c9c;
-     cursor: pointer;
+form > label {
+    font-size: 14px; /* Reduce font size for better fit */
+    color: rgb(24, 151, 24);
+}
 
- }
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; /* Increase font size for better visibility */
+}
 
- form >label {
-     font-size: 12px;
-     color: rgb(24, 151, 24);
-     
- }
-
- label{
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 30px;
- }
-
- h1{
-    color: rgb(231, 229, 229);
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 60px;
-    text-shadow: 5px 5px 5px rgb(19, 17, 16);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+h1 {
+    color: rgb(216, 213, 213);
     text-align: center;
-    background: rgb(38, 40, 44);
- 
- }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgb(8, 7, 6);
+    padding: 7px;
+    margin: 20px 0;
+}
 
- nav{
-    
+nav {
     padding: 10px;
     border-radius: 20px;
-    color: yellow;
-   
- }
+    
+}
