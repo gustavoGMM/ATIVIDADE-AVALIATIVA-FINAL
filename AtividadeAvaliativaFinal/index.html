@@ -1,35 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/AtividadeAvaliativaFinal/style/style.css">
-  <title>pagamento</title>
-</head>
-<body>
+ <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/AtividadeAvaliativaFinal/style/style.css">
+      <title>Carrinho de Compras</title>
+  </head>
+  <body>
   
+  <div class="container">
+      <h1>Produtos</h1>
+      <div class="product" data-name="Gtx 1080" data-price="7000">
+          <img src="/placa (1.png" alt="Gtx 1080 Image">
+          <h3>Gtx 1080</h3>
+          <p>Descrição do produto...</p>
+          <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+  
+      <div class="product" data-name="RTX 3060" data-price="1889">
+          <img src="/placa (2).png" alt="RTX 3060 Image">
+          <h3>RTX 3060</h3>
+          <p>Descrição do produto...</p>
+          <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+  
+      <div class="product" data-name="RTX 4060" data-price="2274">
+          <img src="/placa (3).png" alt="RTX 4060 Image">
+          <h3>RTX 4060</h3>
+          <p>Descrição do produto...</p>
+          <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+  
+      
+      <h1>Carrinho de Compras</h1>
+      <ul id="cart"></ul>
+      <p id="total">Total: R$ 0.00</p>
+  </div>
 
 
-<!-- Adicione esta estrutura onde deseja exibir os produtos -->
-<div class="product" data-name="Gtx 1080" data-price="7000">
-  <h3>Gtx 1080</h3>
-  <p>Descrição do produto...</p>
-  <button class="add-to-cart">Adicionar ao Carrinho</button>
-</div>
-
-<div class="product" data-name="RTX 3060" data-price="1889">
-  <h3>RTX 3060</h3>
-  <p>Descrição do produto...</p>
-  <button class="add-to-cart">Adicionar ao Carrinho</button>
-</div>
-
-<!-- Adicione esta estrutura para exibir o carrinho -->
-<h1>Carrinho de Compras</h1>
-<ul id="cart"></ul>
-<p id="total">Total: R$ 0.00</p>
-
-<!-- Adicione este script no final do seu corpo HTML -->
 <script src="/AtividadeAvaliativaFinal/script.js"></script>
 
 </body>
