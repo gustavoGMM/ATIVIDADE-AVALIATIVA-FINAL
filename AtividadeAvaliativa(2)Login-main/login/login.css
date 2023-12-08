@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to top, #186c9c, white);
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 section {
@@ -27,7 +27,7 @@ section {
     background-attachment: fixed;
     background-color: rgb(115, 122, 113);
     border-radius: 10px;
-    margin-top: 20px; /* Add margin for better spacing */
+    margin-top: 20px; 
 }
 
 form {
@@ -41,15 +41,15 @@ form {
 form > div {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Reduce the gap for better spacing */
+    gap: 20px; 
 }
 
 div > input {
     height: 40px;
     border: 2px solid #080707;
-    width: 100%; /* Make input width 100% */
-    font-size: 16px; /* Reduce font size for better fit */
-    padding: 8px; /* Adjust padding for better appearance */
+    width: 100%; 
+    font-size: 16px; 
+    padding: 8px; 
 }
 
 form > input {
@@ -58,23 +58,23 @@ form > input {
     border-radius: 2px;
     color: white;
     border: none;
-    height: 40px; /* Increase height for better visibility */
+    height: 40px; 
     transition: background-color 0.3s;
 }
 
 form > input:hover {
-    background-color: #145682; /* Darker color on hover */
+    background-color: #145682; 
     cursor: pointer;
 }
 
 form > label {
-    font-size: 14px; /* Reduce font size for better fit */
+    font-size: 14px;
     color: rgb(24, 151, 24);
 }
 
 label {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px; /* Increase font size for better visibility */
+    font-size: 24px; 
 }
 
 h1 {

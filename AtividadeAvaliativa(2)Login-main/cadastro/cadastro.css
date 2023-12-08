@@ -21,7 +21,7 @@ form {
     text-align: center;
     padding: 29px;
     border-radius: 10px;
-    background-color: rgb(43, 46, 49); /* Ajuste de cor de fundo */
+    background-color: rgb(43, 46, 49); 
 }
 
 form div {
@@ -34,8 +34,8 @@ div > input {
     height: 35px;
     border: 2px solid #080707;
     width: 100%;
-    font-size: 16px; /* Ajuste de tamanho de fonte */
-    padding: 8px; /* Ajuste de espaçamento interno */
+    font-size: 16px; 
+    padding: 8px; 
     background-color: white;
 }
 
@@ -67,11 +67,11 @@ section {
 
 .link-as-button {
     display: inline-block;
-    padding: 10px 20px; /* Ajuste de espaçamento interno */
+    padding: 10px 20px; 
     background-color: rgb(72, 87, 69);
     border: none;
     text-decoration: none;
-    color: white; /* Cor do texto ajustada para melhor contraste */
+    color: white; 
     border-radius: 15px;
-    margin-top: 20px; /* Ajuste de margem superior */
+    margin-top: 20px; 
 }

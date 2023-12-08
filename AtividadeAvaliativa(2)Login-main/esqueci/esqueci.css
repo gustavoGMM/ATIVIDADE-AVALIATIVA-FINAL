@@ -24,7 +24,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, #186c9c, white); /*transparent*/
+    background-image: linear-gradient(to top, #186c9c, white);
 }
 
 form{
