@@ -1,44 +1,59 @@
- <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="/AtividadeAvaliativaFinal/style/style.css">
-      <title>Carrinho de Compras</title>
-  </head>
-  <body>
-  
-  <div class="container">
-      <h1>Produtos</h1>
-      <div class="product" data-name="Gtx 1080" data-price="7000">
-          <img src="/placa (1.png" alt="Gtx 1080 Image">
-          <h3>Gtx 1080</h3>
-          <p>Descrição do produto...</p>
-          <button class="add-to-cart">Adicionar ao Carrinho</button>
-      </div>
-  
-      <div class="product" data-name="RTX 3060" data-price="1889">
-          <img src="/placa (2).png" alt="RTX 3060 Image">
-          <h3>RTX 3060</h3>
-          <p>Descrição do produto...</p>
-          <button class="add-to-cart">Adicionar ao Carrinho</button>
-      </div>
-  
-      <div class="product" data-name="RTX 4060" data-price="2274">
-          <img src="/placa (3).png" alt="RTX 4060 Image">
-          <h3>RTX 4060</h3>
-          <p>Descrição do produto...</p>
-          <button class="add-to-cart">Adicionar ao Carrinho</button>
-      </div>
-  
-      
-      <h1>Carrinho de Compras</h1>
-      <ul id="cart"></ul>
-      <p id="total">Total: R$ 0.00</p>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/AtividadeAvaliativaFinal/style/style.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
 
+<div class="container">
+    <h1>Produtos</h1>
+    <div class="product" data-name="Gtx 1080" data-price="7000">
+        <img src="/placa (1.png" alt="Gtx 1080 Image">
+        <h3>Gtx 1080</h3>
+        <p>Descrição do produto...</p>
+        <input type="number" class="quantity" value="1" min="1">
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product" data-name="RTX 3060" data-price="1889">
+        <img src="/placa (2).png" alt="RTX 3060 Image">
+        <h3>RTX 3060</h3>
+        <p>Descrição do produto...</p>
+        <input type="number" class="quantity" value="1" min="1">
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product" data-name="RTX 4060" data-price="2274">
+        <img src="/placa (3).png" alt="RTX 4060 Image">
+        <h3>RTX 4060</h3>
+        <p>Descrição do produto...</p>
+        <input type="number" class="quantity" value="1" min="1">
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+
+   
+    <h1>Carrinho de Compras</h1>
+    <ul id="cart"></ul>
+    <p id="total">Total: R$ 0.00</p>
+
+    <h2>Detalhes de Pagamento</h2>
+    <form id="payment-form">
+        <label for="card-number">Número do Cartão:</label>
+        <input type="text" id="card-number" name="card-number" required>
+
+        <label for="expiry-date">Data de Expiração:</label>
+        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required>
+
+        <button type="submit">Pagar</button>
+    </form>
+</div>
 
 <script src="/AtividadeAvaliativaFinal/script.js"></script>
-
 </body>
 </html>
