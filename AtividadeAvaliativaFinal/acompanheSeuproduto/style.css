@@ -49,3 +49,18 @@ h1, p {
     width: 30%;
     border-radius: 8px;
 }
+
+.btn-home {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #1e88e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-home:hover {
+    background-color: #155fa0;
+}
