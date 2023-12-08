@@ -120,3 +120,34 @@ button:hover {
   border-radius: 8px;
   margin-bottom: 10px;
 }
+
+.home-button,
+.track-button {
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.track-button {
+  background-color: #1e88e5;
+}
+
+.home-button:hover,
+.track-button:hover {
+  background-color: #155d9c;
+}
+
+.track-button:hover {
+  background-color: #1565c0;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
