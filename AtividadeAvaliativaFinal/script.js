@@ -3,10 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const totalDisplay = document.getElementById('total');
     const paymentForm = document.getElementById('payment-form');
 
-    // Simulação de dados do carrinho (pode ser passado do carrinho real)
+    
     const cart = [];
 
-    // Selecione todos os botões "Adicionar ao Carrinho"
     const addToCartButtons = document.querySelectorAll('.add-to-cart');
 
     addToCartButtons.forEach(button => {
@@ -17,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const quantityInput = productContainer.querySelector('.quantity');
             const quantity = parseInt(quantityInput.value);
 
-            // Verifique se a quantidade é válida
+         
             if (quantity > 0) {
                 const existingProduct = cart.find(item => item.name === productName);
 
@@ -41,8 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     paymentForm.addEventListener('submit', function (event) {
         event.preventDefault();
 
-        // Aqui você normalmente faria uma requisição ao seu backend para processar o pagamento
-        // e retornar uma confirmação. Neste exemplo, apenas exibimos um alerta simulando o pagamento.
+       
         alert('Pagamento efetuado com sucesso!');
     });
 
