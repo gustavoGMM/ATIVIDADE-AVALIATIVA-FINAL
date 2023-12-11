@@ -12,7 +12,7 @@ body {
 
 form {
     max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(17, 223, 17, 0.9);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -36,7 +36,7 @@ input {
     border-radius: 5px;
 }
 
-/* Additional styles for buttons and links */
+
 .btn-primary {
     background-color: #007bff;
     border-color: #007bff;
