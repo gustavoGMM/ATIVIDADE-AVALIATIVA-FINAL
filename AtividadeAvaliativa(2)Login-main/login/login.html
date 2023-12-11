@@ -4,58 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="caminho/para/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/AtividadeAvaliativa(2)Login-main/login/login.css">
     <title>logui</title>
-    <h1>SEJA MUITO BEM VINDO!!</h1>
 
     <style>
-        body{
+        body {
             height: 100vh;
             width: 100%;
             background-image: url(/images3/LZP3MD\ 1.png);
             background-position: center center;
             background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    
-    <form>
-        <div>
-            <label for="email">Email</label>
-             <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="digite seu email"
-              >  
-         </div>
-        <div>
-            <label for="senha">Senha</label>
+
+    <form class="p-3">
+        <h1>SEJA MUITO BEM VINDO!!</h1>
+        
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
             <input
-            type="password"
-            name="senha" 
-            id="senha" 
-            placeholder="digite sua senha"
-            >     
-    </div>
-     
-    <section>
-        <a class="link-as-button" href="/AtividadeAvaliativa(3)/catalógo/Catalogo.html"
-        target="_blank">
-        <h3>Logar</h3>
-      </a>
-       </section>
+                type="text"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Digite seu email"
+            >
+        </div>
 
-       <nav>
-        <a href="/AtividadeAvaliativa(2)Login-main/cadastro/cadastro.html">Novo Por Aqui ? Crie sua conta</a>
-    </nav>
+        <div class="mb-3">
+            <label for="senha" class="form-label">Senha</label>
+            <input
+                type="password"
+                class="form-control"
+                name="senha" 
+                id="senha" 
+                placeholder="Digite sua senha"
+            >
+        </div>
+        
+        <section class="mb-3">
+            <a class="btn btn-primary btn-lg d-block w-100" href="/AtividadeAvaliativa(3)/catalógo/Catalogo.html" target="_blank">
+                Logar
+            </a>
+        </section>
 
-    <nav>
-        <a href="/AtividadeAvaliativa(2)Login-main/esqueci/esqueci.html">Esqueceu Sua Senha ??</a>
-    </nav>
+        <nav class="mb-3">
+            <a class="nav-link" href="/AtividadeAvaliativa(2)Login-main/cadastro/cadastro.html">Novo Por Aqui ? Crie sua conta</a>
+        </nav>
 
+        <nav class="mb-3">
+            <a class="nav-link" href="/AtividadeAvaliativa(2)Login-main/esqueci/esqueci.html">Esqueceu Sua Senha ??</a>
+        </nav>
+    </form>
 
- </form>
+    <!-- Adicione os links para os arquivos JavaScript do Bootstrap (opcional) -->
+    <script src="caminho/para/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

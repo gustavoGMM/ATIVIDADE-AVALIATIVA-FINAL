@@ -5,72 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/AtividadeAvaliativa(2)Login-main/cadastro/cadastro.css">
+   
+    <link rel="stylesheet" href="caminho/para/bootstrap/css/bootstrap.min.css">
     <title>Cadastro</title>
-    <h1>Faça Seu Cadastro conosco!!!</h1>
 </head>
-<body>
-  
-  <style>
-    body{
-        height: 100vh;
-        width: 100%;
-        background-image: url(/images3/LZP3MD\ 1.png);
-        background-position: center center;
-        background-attachment: fixed;
-    }
-</style>
+<body class="bg-light">
 
-    <form autocomplete="on">
-        <fieldset>
-            <legend><h2>Dados Pessoais</h2></legend>
-          <div>
-              <label for="nome">Nome:</label>
-              <input 
-                  type="text"
-                  name="nome"
-                  id="nome"
-                  placeholder="Digite seu nome completo"
-                  autocomplete="cc-name" >
-          </div>
-        
-          <div>
-            <label for="telefone">Telefone:</label>
-          <input 
-             type="tel"
-             name="telefone"
-             id="telefone"
-             placeholder="(xx)xxxx-xxxx"
-             autocomplete="tel">
-          </div>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Faça Seu Cadastro Conosco!!!</h1>
 
+        <form autocomplete="on">
+            <fieldset>
+                <legend><h2>Dados Pessoais</h2></legend>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input 
+                        type="text"
+                        class="form-control"
+                        name="nome"
+                        id="nome"
+                        placeholder="Digite seu nome completo"
+                        autocomplete="cc-name">
+                </div>
 
-         <div>
-            <label for="email">Email:</label>
-          <input 
-             type="email"
-             name="email"
-             id="email"
-             placeholder="Exemplo@exemplo.com"
-             autocomplete="Email">
-           </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <input 
+                        type="tel"
+                        class="form-control"
+                        name="telefone"
+                        id="telefone"
+                        placeholder="(xx)xxxx-xxxx"
+                        autocomplete="tel">
+                </div>
 
-         <div>
-            <label for="senha">Senha:</label>
-          <input 
-             type="senha"
-             name="senha"
-             id="senha"
-             placeholder="Digite uma senha"> 
-           </div>
-           
-           <section>
-            <a class="link-as-button" href="/AtividadeAvaliativa(2)Login-main/login/login.html"
-            target="_blank">
-            Realizar Cadastro
-          </a>
-           </section>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input 
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Exemplo@exemplo.com"
+                        autocomplete="Email">
+                </div>
 
-        </fieldset>
-    </form>
+                <div class="mb-3">
+                    <label for="senha" class="form-label">Senha:</label>
+                    <input 
+                        type="password"
+                        class="form-control"
+                        name="senha"
+                        id="senha"
+                        placeholder="Digite uma senha">
+                </div>
+                
+                <div class="mb-3">
+                    <a class="btn btn-primary" href="/AtividadeAvaliativa(2)Login-main/login/login.html" target="_blank">
+                        Realizar Cadastro
+                    </a>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>

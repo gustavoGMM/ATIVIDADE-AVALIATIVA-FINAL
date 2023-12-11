@@ -1,94 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to top, #186c9c, white);
-    margin: 0; 
-}
-
-section {
-    width: 50%;
-    padding: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin: 0;
+    background-image: url(/images3/LZP3MD\ 1.png);
     background-position: center center;
     background-attachment: fixed;
-    background-color: rgb(115, 122, 113);
-    border-radius: 10px;
-    margin-top: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
 }
 
 form {
-    background-color: rgb(43, 46, 49);
-    padding: 40px;
-    border-radius: 5px;
-    margin-top: 20px;
-    box-shadow: 1px 1px 1px gray;
-}
-
-form > div {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; 
-}
-
-div > input {
-    height: 40px;
-    border: 2px solid #080707;
-    width: 100%; 
-    font-size: 16px; 
-    padding: 8px; 
-}
-
-form > input {
-    background-color: #186c9c;
-    width: 100%;
-    border-radius: 2px;
-    color: white;
-    border: none;
-    height: 40px; 
-    transition: background-color 0.3s;
-}
-
-form > input:hover {
-    background-color: #145682; 
-    cursor: pointer;
-}
-
-form > label {
-    font-size: 14px;
-    color: rgb(24, 151, 24);
-}
-
-label {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px; 
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    color: rgb(216, 213, 213);
+    color: #333;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    text-shadow: 3px 3px 3px rgb(8, 7, 6);
-    padding: 7px;
-    margin: 20px 0;
 }
 
-nav {
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
     padding: 10px;
-    border-radius: 20px;
-    
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Additional styles for buttons and links */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
 }

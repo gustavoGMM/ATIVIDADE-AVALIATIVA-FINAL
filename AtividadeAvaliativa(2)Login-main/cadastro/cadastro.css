@@ -1,77 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    margin: 0;
-}
-
-form {
-    width: 380px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 29px;
-    border-radius: 10px;
-    background-color: rgb(43, 46, 49); 
-}
-
-form div {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-div > input {
-    height: 35px;
-    border: 2px solid #080707;
     width: 100%;
-    font-size: 16px; 
-    padding: 8px; 
-    background-color: white;
+    background-image: url(/images3/LZP3MD\ 1.png);
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(24, 192, 33, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: rgb(216, 213, 213);
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    text-shadow: 3px 3px 3px rgb(8, 7, 6);
-    padding: 7px;
-    margin: 20px 0;
+    color: #333;
 }
 
-h2 {
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    border-radius: 10px;
-    padding: 15px;
+form {
+    max-width: 400px;
+    margin: 0 auto;
 }
 
-fieldset {
-    border: none;
-    padding: 20px;
-}
-
-section {
-    margin: 30px 0;
-}
-
-.link-as-button {
-    display: inline-block;
-    padding: 10px 20px; 
-    background-color: rgb(72, 87, 69);
-    border: none;
-    text-decoration: none;
-    color: white; 
-    border-radius: 15px;
-    margin-top: 20px; 
+.btn-primary {
+    width: 100%;
 }
